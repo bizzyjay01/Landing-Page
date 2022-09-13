@@ -1,0 +1,172 @@
+html {
+   box-sizing: border-box;
+   font-family: 'Epilogue', sans-serif;
+}
+
+body {
+   font-family: 'Epilogue', sans-serif;
+   background-image: url(images/background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+      /* width: 300px;
+      height: 300px; */
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+.main-container {
+   background-color: hsl(0, 0%, 98%);
+   width: 100%;
+   max-width: 2400px;
+
+}
+
+/* .navbar-toggler-icon {
+   background-image: url("data:imge/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='hsl(0, 0%, 8%)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+   
+} */
+
+button:focus {
+   outline: none;
+}
+
+.nav-link {
+   font-size: 20px;
+   
+}
+
+
+
+.nav-link {
+   margin-left: 50px;
+}
+
+#register {
+   padding-top: 10px;
+}
+
+
+
+#content button {
+   font-size: 20px;
+   color: hsl(0, 0%, 98%);
+   background-color: hsl(0, 0%, 8%);
+   padding: 15px 20px;
+   border-radius: 1rem;
+   margin-top: 70px;
+   box-shadow: none;
+   box-sizing: border-box;
+   border: none;
+   
+}
+
+#flex-1 {
+   /* margin-top: 9rem; */
+}
+
+#flex-1 h1 {
+   width: 70%;
+   font-size: 6rem;
+   font-weight: 800;
+}
+
+#flex-1 p {
+   margin-top: 60px;
+   font-size: 30px;
+   width: 70%;
+   color: hsl(0, 0%, 41%);
+}
+
+.logo {
+  margin-top: 6rem;
+}
+
+
+ @media (max-width:1200px) {
+
+      .image-hero-desktop {
+            height: 600px;
+         }
+      .image-hero-desktop img {
+            height: 100%;
+      }
+   
+   body {
+      background-image: none;
+      align-items: flex-start;
+      
+   }
+
+   #flex-1 h1 {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      margin-top: 35px;
+   }
+
+   #flex-1 p {
+      width: 100%;
+   }
+   #content {
+      text-align: center;
+   }
+
+}
+
+@media (max-width:600px) {
+.image-hero-desktop {
+      height: 300px;
+   }
+
+   #flex-1 h1 {
+         width: 100%;
+         font-size: 1.55rem;
+      }
+   
+      #flex-1 p {
+         font-size: 11px;
+         margin-top: 15px;
+      }
+
+      #content button {
+         margin-top: 15px;
+         font-size: 15px;
+         font-weight: 600;
+         padding: 12px 17px;
+      }
+
+      .logo {
+         margin-top: 2.5rem;
+            margin-bottom: 4rem;
+            
+      }
+            
+   }
+
+   @media (max-width:400px) {
+      #flex-1 h1 {
+            width: 100%;
+           
+         }
+   }
+
+
+   /* #content button {
+      margin-top: 20px;
+   }
+
+  
+   #flex-1 h1 {
+      font-size: 3rem;
+   }
+
+      .logo {
+         margin-top: 3rem;
+      }
+}  */
